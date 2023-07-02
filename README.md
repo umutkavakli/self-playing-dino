@@ -1,3 +1,3 @@
 # self-playing-dino
 
-![](example.gif)
+<p align="center"><img src="example.gif"></p>
