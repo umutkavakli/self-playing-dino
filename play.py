@@ -35,7 +35,7 @@ DELAY = 0.000000001
 CLASSES = {0: down, 1: ground, 2: up}
 ROI = {'top': Y, 'left': X, 'width': WIDTH, 'height': HEIGHT}
 
-if __name__ == '__main__':
+def main():
     monitor = mss.mss()
 
     with open('model.json', 'r') as json_file:
@@ -61,3 +61,6 @@ if __name__ == '__main__':
         # calling the proper movement -> up, down, nothing
         CLASSES[y_pred]()
         time.sleep(DELAY)
+
+if __name__ == '__main__':
+    main()
