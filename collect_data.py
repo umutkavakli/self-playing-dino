@@ -1,10 +1,9 @@
-import numpy as np
-import pandas as pd
-import pyautogui
-import keyboard
-import time
 import cv2
+import time
 import pathlib
+import keyboard
+import pyautogui
+import numpy as np
 
 # coordinates of region of interest
 X = 320
