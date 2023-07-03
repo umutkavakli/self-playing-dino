@@ -1,0 +1,5 @@
+mss
+numpy
+keyboard
+tensorflow
+opencv-python
