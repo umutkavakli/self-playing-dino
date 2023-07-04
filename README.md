@@ -25,3 +25,8 @@ RUN the code:
 ```
 sudo python3 play.py
 ```
+
+### To-do
+
+- [ ] Train reinforcement model for the same task
+- [ ] Add a GUI to show and customize the ROI
